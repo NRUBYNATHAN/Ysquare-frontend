@@ -1,0 +1,14 @@
+.home{
+    display: grid;
+    /* RAM method (repeat auto-fit minmax() )*/
+    grid-template-columns: repeat(auto-fit,minmax(700px,1fr));
+    gap:20px;
+    justify-items: center;
+    margin-top: 50px;
+}
+.data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
